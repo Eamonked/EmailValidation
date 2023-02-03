@@ -1,0 +1,94 @@
+package Assignments;
+
+import java.util.LinkedList;
+import java.util.List;
+import java.util.Scanner;
+
+public class validationOfAnEmailID {
+
+	public static void main(String[] args) {
+		
+		System.out.println("Please Enteer you Email Address::");
+		Scanner StringValue = new Scanner(System.in);
+		
+		String Val1 = StringValue.next();
+		
+		
+		
+		
+		
+		//validationOfAnEmailID vailEmail = new validationOfAnEmailID()
+;
+		//vailEmail.userEmailId();
+		
+		
+		
+		
+		
+		
+		
+		
+		
+	//}
+	//public void userEmailId() {
+	List<String> emailId = new LinkedList<>();
+			
+			emailId.add("xyz@gmail.com");
+			emailId.add("abc@gmail.com");
+			emailId.add("qwerty@gmail.com");
+			emailId.add("pony@gmail.com");
+			emailId.add("test@gmail.com");
+			emailId.add("ken@gmail.com");
+			emailId.add("laptop@gmail.com");
+			emailId.add("jerry@gmail.com");
+			emailId.add("cathy@gmail.com");
+			emailId.add("eamon@gmail.com");
+			emailId.add("emma@gmail.com");
+			emailId.add("xyz@yahoo.com");
+			emailId.add("nmh@yahoo.com");
+			
+			//System.out.println(emailId.get(0));
+			//System.out.println(Val1);
+			System.out.println(emailId.size());
+			
+			
+			if (emailId.contains(Val1)){
+				System.out.println("Email:: " + Val1 + " Exists");
+			}
+			else {
+				//emailId.add(Val1);
+				System.out.println("Email:: " + Val1 + " Does NOt Exist");
+				//System.out.println("Email:: " + Val1 + " Successfully added");
+				
+			}
+			
+			
+			
+			
+			//for(String name: emailId) {
+			//	System.out.println(name);
+			//}
+			
+			//int i = 0;
+			//while (i < emailId.size()); i++; {
+
+				//if (Val1.equalsIgnoreCase(emailId.get(i))) {
+					//System.out.println("Email" + (emailId.get(i)) + "Exists");
+					
+				//}
+				//else {
+					//System.out.println("Try Again");
+				//}
+				//System.out.println("Email" + emailId.get(i) + "Exist");
+				
+				
+				//Val1.compareTo(emailId.get(i));
+				//dSystem.out.println(Val1.equalsIgnoreCase(emailId.get(i)));
+				//System.out.println(emailId.size());
+						
+			//}
+			
+			
+	}
+
+}
